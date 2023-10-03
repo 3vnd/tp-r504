@@ -1,0 +1,23 @@
+Q1.1- 	9 contributeurs
+Q1.2-	192 Ko
+Q1.3-	la commande sert à afficher qui a écris chaque ligne du code et à quelle date.
+Q1.4-	Jake Ginnivan
+Q1.5-	3e5d1596
+Q1.6-	"This simple project is designed to help people understand some basic git concept
+ This is my first attempt at using both SVG and D3. I hope it is helpful to you."
+Q1.7-	04/10/2017 15h57
+Q1.8-	3e5d1596e347e2ed2cf7cc30b34d222a19997050
+Q1.9-	Jake Ginnivan 17/06/2014 21h47
+Q1.10-	git log --oneline | wc -l     et on trouve 91 commit
+Q1.11-	git log --online affiche les commit de manière plus simplifié que l'autre comman
+Q1.12-	git log --format="%an"
+Q1.13-	git log --format="%an" | sort | uniq | wc -l
+
+Q2.1-	git status
+Q2.2-	main
+Q2.5-	oui
+Q2.6-	
+Q2.7-
+Q2.8-
+
+
