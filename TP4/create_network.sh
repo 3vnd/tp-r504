@@ -10,3 +10,9 @@ if [ -z "$(docker network ls -q -f name=${network_name})" ]; then
 else
   echo "Le réseau ${network_name} existe déjà."
 fi
+
+if [ $? !=0 ]
+then
+	echo"erreur"
+		exit
+fi

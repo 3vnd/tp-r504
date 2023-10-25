@@ -1,1 +1,6 @@
 mysql -u root -p'foo' -h 127.0.0.1 --port=NUMERO < data.sql
+if [ $? !=0 ]
+then
+	echo"erreur"
+		exit
+fi

@@ -1,5 +1,4 @@
 
-
 # Stopper les conteneurs
 docker stop $(docker ps -q)
 
@@ -11,3 +10,5 @@ docker network prune -f
 
 # Supprimer les volumes 
 docker volume prune -f
+
+
