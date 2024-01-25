@@ -10,7 +10,7 @@ public class ClientTCP1
 			//ClientTCP.java
 			Socket socket = new Socket( "LocalHost", 2016 );
 			DataOutputStream dOut = new DataOutputStream( socket.getOutputStream() );
-			dOut.writeUTF( "message test" );
+			dOut.writeUTF( args[0] );
 			socket.close();
 		}
 		catch( Exception ex ) 
